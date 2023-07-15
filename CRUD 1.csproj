@@ -15,4 +15,8 @@
     <ProjectReference Include="..\CRUDlib\CRUDlib.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Model\" />
+  </ItemGroup>
+
 </Project>

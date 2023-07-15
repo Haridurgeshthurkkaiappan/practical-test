@@ -12,7 +12,7 @@ namespace CRUDlib
         public string Name { get; set; }
         public string address { get; set; }
         public int age { get; set; }
-        public int phonenumber { get; set; }
+        public long phonenumber { get; set; }
         public DateTime DOB { get; set; }
 
 
@@ -34,7 +34,7 @@ namespace CRUDlib
             Console.WriteLine("enter last AGE ");
             e.age = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("enter last phonenumber");
-            e.phonenumber = Convert.ToInt32(Console.ReadLine());
+            e.phonenumber = Convert.ToInt64(Console.ReadLine());
             Console.WriteLine("enter last DOB ");
             e.DOB = Convert.ToDateTime(Console.ReadLine());
 
